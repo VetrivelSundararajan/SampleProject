@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="5" ignored="5" total="11" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Suite is Started]]>
+    </line>
+    <line>
+      <![CDATA[Demo site is loaded successfully]]>
+    </line>
+    <line>
+      <![CDATA[Opening Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login is successful]]>
+    </line>
+    <line>
+      <![CDATA[getTitle is Started Execution]]>
+    </line>
+    <line>
+      <![CDATA[getTitle is Skipped]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Logout is successful]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login is successful]]>
+    </line>
+    <line>
+      <![CDATA[getTitle is Started Execution]]>
+    </line>
+    <line>
+      <![CDATA[getTitle is Skipped]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Logout is successful]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login is successful]]>
+    </line>
+    <line>
+      <![CDATA[getTitle is Started Execution]]>
+    </line>
+    <line>
+      <![CDATA[getTitle is Skipped]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Logout is successful]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login is successful]]>
+    </line>
+    <line>
+      <![CDATA[getTitle is Started Execution]]>
+    </line>
+    <line>
+      <![CDATA[getTitle is Skipped]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Logout is successful]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login is successful]]>
+    </line>
+    <line>
+      <![CDATA[getTitle is Started Execution]]>
+    </line>
+    <line>
+      <![CDATA[getTitle is Skipped]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Logout is successful]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login is successful]]>
+    </line>
+    <line>
+      <![CDATA[getTitle is Started Execution]]>
+    </line>
+    <line>
+      <![CDATA[getTitle is Failed in Execution and Screenshot Captured]]>
+    </line>
+    <line>
+      <![CDATA[Logout]]>
+    </line>
+    <line>
+      <![CDATA[Logout is successful]]>
+    </line>
+    <line>
+      <![CDATA[Closing Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-09-28T10:43:23 IST" name="Suite" finished-at="2024-09-28T10:44:00 IST" duration-ms="36446">
+    <groups>
+      <group name="Regression">
+        <method signature="GettingTitle.getTitle()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" name="getTitle" class="testscript.GettingTitle"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-09-28T10:43:23 IST" name="Chrome" finished-at="2024-09-28T10:44:00 IST" duration-ms="36446">
+      <class name="testscript.GettingTitle">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:23 IST" name="openBrowser" finished-at="2024-09-28T10:43:29 IST" duration-ms="6027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Demo site is loaded successfully]]>
+            </line>
+            <line>
+              <![CDATA[Opening Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:29 IST" name="login" finished-at="2024-09-28T10:43:32 IST" duration-ms="2194" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+            <line>
+              <![CDATA[Login page is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Login is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method retried="true" signature="getTitle()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:32 IST" name="getTitle" finished-at="2024-09-28T10:43:32 IST" duration-ms="15" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testscript.GettingTitle.getTitle(GettingTitle.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[getTitle is Started Execution]]>
+            </line>
+            <line>
+              <![CDATA[getTitle is Skipped]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:32 IST" name="logout" finished-at="2024-09-28T10:43:34 IST" duration-ms="2846" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+            <line>
+              <![CDATA[Logout is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:34 IST" name="login" finished-at="2024-09-28T10:43:37 IST" duration-ms="3081" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+            <line>
+              <![CDATA[Login page is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Login is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method retried="true" signature="getTitle()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:37 IST" name="getTitle" finished-at="2024-09-28T10:43:38 IST" duration-ms="12" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testscript.GettingTitle.getTitle(GettingTitle.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[getTitle is Started Execution]]>
+            </line>
+            <line>
+              <![CDATA[getTitle is Skipped]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:38 IST" name="logout" finished-at="2024-09-28T10:43:40 IST" duration-ms="2972" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+            <line>
+              <![CDATA[Logout is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:40 IST" name="login" finished-at="2024-09-28T10:43:42 IST" duration-ms="1661" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+            <line>
+              <![CDATA[Login page is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Login is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method retried="true" signature="getTitle()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:42 IST" name="getTitle" finished-at="2024-09-28T10:43:42 IST" duration-ms="13" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testscript.GettingTitle.getTitle(GettingTitle.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[getTitle is Started Execution]]>
+            </line>
+            <line>
+              <![CDATA[getTitle is Skipped]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:42 IST" name="logout" finished-at="2024-09-28T10:43:45 IST" duration-ms="3005" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+            <line>
+              <![CDATA[Logout is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:45 IST" name="login" finished-at="2024-09-28T10:43:47 IST" duration-ms="1740" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+            <line>
+              <![CDATA[Login page is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Login is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method retried="true" signature="getTitle()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:47 IST" name="getTitle" finished-at="2024-09-28T10:43:47 IST" duration-ms="9" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testscript.GettingTitle.getTitle(GettingTitle.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[getTitle is Started Execution]]>
+            </line>
+            <line>
+              <![CDATA[getTitle is Skipped]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:47 IST" name="logout" finished-at="2024-09-28T10:43:50 IST" duration-ms="2929" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+            <line>
+              <![CDATA[Logout is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:50 IST" name="login" finished-at="2024-09-28T10:43:52 IST" duration-ms="1769" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+            <line>
+              <![CDATA[Login page is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Login is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method retried="true" signature="getTitle()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:52 IST" name="getTitle" finished-at="2024-09-28T10:43:52 IST" duration-ms="12" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testscript.GettingTitle.getTitle(GettingTitle.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[getTitle is Started Execution]]>
+            </line>
+            <line>
+              <![CDATA[getTitle is Skipped]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:52 IST" name="logout" finished-at="2024-09-28T10:43:55 IST" duration-ms="2949" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+            <line>
+              <![CDATA[Logout is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:55 IST" name="login" finished-at="2024-09-28T10:43:56 IST" duration-ms="1828" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+            <line>
+              <![CDATA[Login page is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Login is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="getTitle()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:56 IST" name="getTitle" finished-at="2024-09-28T10:43:56 IST" duration-ms="10" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testscript.GettingTitle.getTitle(GettingTitle.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[getTitle is Started Execution]]>
+            </line>
+            <line>
+              <![CDATA[getTitle is Failed in Execution and Screenshot Captured]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:57 IST" name="logout" finished-at="2024-09-28T10:43:59 IST" duration-ms="2879" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout]]>
+            </line>
+            <line>
+              <![CDATA[Logout is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testscript.GettingTitle@76a4ebf2]" started-at="2024-09-28T10:43:59 IST" name="closeBrowser" finished-at="2024-09-28T10:44:00 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testscript.GettingTitle -->
+    </test> <!-- Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
